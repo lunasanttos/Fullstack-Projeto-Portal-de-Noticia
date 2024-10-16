@@ -23,4 +23,5 @@
   padding-block: 14px;
   border: solid 1px --stroke-color;
   border-inline: none;
+  justify-content: space-between;
 }
