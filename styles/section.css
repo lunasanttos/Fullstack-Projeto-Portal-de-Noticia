@@ -26,6 +26,11 @@
       bottom: 0;
 
       padding: 24px;
+      
+/*observa se tem a uma tag ali no html, se tem aplica a modificação, no caso abaixo observou quais tem o .text-lg e aplicou o padding de 12px*/
+      &:has(.text-lg){
+        padding: 12px;
+      }
 
       h2{
         margin-top: 8px;
